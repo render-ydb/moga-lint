@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": [
+      "node",
+    ],
+    "allowJs": true,
+    "outDir": "lib",
+    "allowSyntheticDefaultImports": true,
+  },
+  "typeRoots": [
+    "./node_modules/@types",
+  ],
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [
+    "lib",
+  ],
+}
