@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "target": "ESNext",
+    "target": "ES5",
     "module": "CommonJS",
-    "moduleResolution": "node",
     "strict": true,
     "skipLibCheck": true,
     "types": [
@@ -11,7 +9,7 @@
     ],
     "allowJs": true,
     "outDir": "lib",
-    "allowSyntheticDefaultImports": true,
+    
   },
   "typeRoots": [
     "./node_modules/@types",

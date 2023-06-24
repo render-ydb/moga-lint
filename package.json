@@ -1,8 +1,8 @@
 {
   "name": "moga-lint",
   "version": "1.0.0",
-  "description": "A collection of configuration for various lint tools",
-  "main": "index.js",
+  "description": "moga-lint是用于moga应用代码校验而封装的各种校验工具集",
+  "main": "lib/index.js",
   "scripts": {
     "start": "tsc -w",
     "build": "tsc",
@@ -12,38 +12,47 @@
     "type": "git",
     "url": "git+https://github.com/render-ydb/moga-lint.git"
   },
-  "keywords": [],
-  "author": "",
+  "files": [
+    "lib"
+  ],
+  "keywords": ["moga","lint","eslint","prettier","stylelint","commitlint"],
+  "author": "render",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/render-ydb/moga-lint/issues"
   },
   "homepage": "https://github.com/render-ydb/moga-lint#readme",
   "peerDependencies": {
-    "eslint": ">=6.8.0",
-    "stylelint": ">=8.3.0",
-    "stylelint-scss": ">=2.0.0"
+    "husky": "^1.3.1",
+    "eslint": "^8.43.0",
+    "stylelint": "^13.7.2",
+    "stylelint-scss": "^3.18.0",
+    "prettier": "^2.8.8"
   },
   "devDependencies": {
     "@types/eslint": "^8.40.2",
     "@types/node": "^20.3.1",
     "@types/require-all": "^3.0.3",
-    "eslint": "^8.43.0",
-    "stylelint": "^15.8.0",
     "typescript": "^5.1.3"
   },
   "dependencies": {
     "@babel/core": "^7.22.5",
     "@babel/eslint-parser": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
+    "@commitlint/cli": "^17.6.6",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
+    "husky": "^1.3.1",
     "conventional-changelog-conventionalcommits": "^6.1.0",
+    "eslint": "^8.43.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "mocha": "^10.2.0",
     "require-all": "^3.0.0",
-    "stylelint-scss": ">=2.0.0"
+    "stylelint": "^13.7.2",
+    "stylelint-scss": "^3.18.0",
+    "prettier": "^2.8.8"
   }
 }

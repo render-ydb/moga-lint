@@ -1,4 +1,4 @@
-export default (target, source) => {
+function deepmerge (target, source) {
     const newObj = JSON.parse(JSON.stringify(target));
 
     Object.keys(source).forEach((key) => {
@@ -15,3 +15,5 @@ export default (target, source) => {
 
     return newObj;
 }
+
+module.exports = deepmerge;
