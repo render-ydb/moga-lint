@@ -1,6 +1,6 @@
 {
   "name": "moga-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "moga-lint是用于moga应用代码校验而封装的各种校验工具集",
   "main": "lib/index.js",
   "scripts": {
