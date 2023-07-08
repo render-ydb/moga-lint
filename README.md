@@ -16,7 +16,7 @@ npm i moga-lint -D
 moga-lint目前支持eslint、stylelint、prettier、commitlint，共四种类型lint tool。
 
 #### eslint配置
-在项目根目录下新增.eslint.js文件，添加如下代码：
+在项目根目录下新增.eslintrc.js文件，添加如下代码：
 ```javascript
 const { getESLintConfig } = require('moga-lint');
 
